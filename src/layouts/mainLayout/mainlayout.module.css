@@ -1,0 +1,38 @@
+.container {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 3.2em auto 0.8em;
+    grid-template-columns: max-content;
+    grid-template-areas: "sidebar header header" "sidebar main main" "sidebar main main";
+}
+
+.sidebarMain {
+    background-color: #3a5a40;
+    grid-area: sidebar;
+}
+
+.headerMain {
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #cdcdcd;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 1em;
+    box-shadow: 0 0 4px 0 #11133d;
+}
+
+.mainContent {
+    background-color: #eaf3f0;
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.5em 0.75em;
+    overflow: hidden;
+}

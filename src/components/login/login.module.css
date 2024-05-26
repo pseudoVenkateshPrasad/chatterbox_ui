@@ -1,117 +1,70 @@
-
-
 .container {
     /* background-color: red !important; */
-    width : 100vw;
-    height : 100vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .leftScreen {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #344e41;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .rightScreen {
     min-width : 50%;
     height : 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #588157;
-}
-.rightScreen {
-    min-width : 50%;
-    height : 100%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.registerImg{
-    height : 60%;
-}
-
-.registerBox{
-    height: 72%;
-    width:57%;
-    border-radius: 6px;
-    /* border : 1px solid grey; */
-    display : flex;
-    flex-direction: column;
-    padding: 1.5em;
-    box-sizing: border-box;
-    box-shadow: 0 0 14px 1px #adb5bd;
-}
-
-.signupSection {
-    
-    flex-basis: 80%;
-    border-bottom: 1px solid grey;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.loginSection {
-    flex-basis: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width : 100%;
-}
-
-.forgotBox {
-    width : 100%;
-    text-align: start;
-    margin-top: -1.5em;
-}
+    background-color: #fff;
+} */
 
 .signupfieldsBox {
+    /*  */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex-basis: 80%;
-}
-.submitBtnBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-basis: 10%;
-}
-.forgotPassword {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-basis: 10%;
-}
-.question {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-basis: 50%;
-    width : 100%;
-    text-align: center;
-    padding-top:.5em;
-    font-weight: 500;
-    color : #588157;
-    font-size: 1.2em;
-}
-.loginBtn {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-basis: 50%;
+    flex-basis: 70%;
 }
 
-.forgot {
-    width : auto;
-    text-align: left;
-    padding:.5em 0;
-    font-weight: 500;
-    cursor : pointer;
-    color : #a3b18a;
+.loginWrapper {
+    /* border: 1px solid red; */
+    background: #fff;
+    min-height: 56vh;
+    max-height: 56vh;
+    min-width: 25vw;
+    max-width: 25vw;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding : 2em 1em;
+    box-shadow: 0 0 14px 2px #1a1a1a;
 }
 
-.forgot:hover {
-    color : #3a5a40;
+.imgWrapper {
+    flex-basis: 30%;
+}
+
+.imgWrapper img {
+    height: 6em;
+    width: 6em;
+}
+
+.buttonWrapper {
+    /* border : 1px solid red;
+    display: flex;
+    justify-content: center; */
 }
